@@ -1,0 +1,142 @@
+/* Your Awesome Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Gochi+Hand&display=swap');
+
+body {
+  display: flex;
+  margin: 10vmin;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #edf4ff;
+  background-image: url('assets/pattern.png');
+  background-size: cover;
+}
+
+
+h1 {
+  font-family: Gochi Hand;
+  font-style:bold;
+  font-size: 10vh;
+/*   text-transform: uppercase; */
+  position: relative;
+  text-align: center;
+}
+
+p {
+  font-family: Fredoka;
+  font-size: 3vh;
+  position: relative;
+  text-align: center;
+}
+
+.keys{
+  font-family:Fredoka;
+  border-radius: 5px;
+  padding: 5vw;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 5vw;
+  text-align: center;
+  
+} 
+
+.a-key,.h-key,.o-key,.v-key{
+  background-color: rgb(255,166,166);
+  border-radius: 1em;
+  padding: 3vh 3vw;
+  opacity: .85;
+  
+  transform: scale(1);
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+}
+
+.a-key:hover,.b-key:hover,.c-key:hover,.d-key:hover,.e-key:hover,.f-key:hover,.g-key:hover,.h-key:hover,.i-key:hover,.j-key:hover,.k-key:hover,.l-key:hover,.m-key:hover,.n-key:hover,.o-key:hover,.p-key:hover,.q-key:hover,.r-key:hover,.s-key:hover,.t-key:hover,.u-key:hover,.v-key:hover,.w-key:hover,.x-key:hover,.y-key:hover,.z-key:hover{
+  
+  transition-property: transform, opacity;
+  opacity: 1;
+  transform: scale(1.25);
+  transition-duration: 1s;
+}
+
+.b-key,.i-key,.p-key,.w-key{
+  background-color: rgb(255,218,166);
+  border-radius: 1em;
+  padding: 3vh 3vw;
+  opacity: .85;
+  
+  transform: scale(1);
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+}
+
+.c-key,.j-key,.q-key,.x-key{
+  background-color: rgb(255,268,166);
+  border-radius: 1em;
+  padding: 3vh 3vw;
+  opacity: .85;
+  
+  transform: scale(1);
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+}
+
+.d-key,.k-key,.r-key,.y-key{
+  background-color: rgb(180,268,166);
+  border-radius: 1em;
+  padding: 3vh 3vw;
+  opacity: .85;
+  
+  transform: scale(1);
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+}
+
+.e-key,.l-key,.s-key,.z-key{
+  background-color: rgb(163,235,247);
+  border-radius: 1em;
+  padding: 3vh 3vw;
+  opacity: .85;
+  
+  transform: scale(1);
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+}
+
+.f-key,.m-key,.t-key{
+  background-color: rgb(168,166,255);
+  border-radius: 1em;
+  padding: 3vh 3vw;
+  opacity: .85;
+  
+  transform: scale(1);
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+}
+
+.g-key,.n-key,.u-key{
+  background-color: rgb(255,166,232);
+  border-radius: 1em;
+  padding: 3vh 3vw;
+  opacity: .85;
+  
+  transform: scale(1);
+  transition-property: transform, opacity;
+  transition-duration: 1s;
+}
+
+kbd {
+  font-family:Fredoka;
+  font-size: 10vh;
+  display: block;
+  gap: 7vh;
+  position: relative;
+} 
+
+span {
+  font-size: 2.5vh;
+  display: block;
+  position: relative;
+}

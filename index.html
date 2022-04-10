@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Soundboard</title>
+  
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <script defer src="./scripts.js"></script>  
+  
+</head>
+<div class="content">
+<body>
+
+<h1>Animal Alphabet</h1>
+  
+ <p>Press any lettered key on your keyboard and discover its corresponding animal. Learn the alphabet, animals, and of course animal sounds!</p>
+<!-- Container for all the keys and sounds   -->
+<main class="keys">
+ 
+  <!-- Individual Keys -->
+  <div class="a-key" data-key="65">
+    <kbd>A</kbd>
+    <span>is for Alligator</span>
+  </div>
+
+  <div class="b-key" data-key="66">
+  <kbd>B</kbd>
+  <span>is for Bear</span>
+  </div>  
+  
+  <div class="c-key" data-key="67">
+  <kbd>C</kbd>
+  <span>is for Cow</span>
+  </div>  
+  
+  <div class="d-key" data-key="68">
+  <kbd>D</kbd>
+  <span>is for Dog</span>
+  </div>  
+  
+  <div class="e-key" data-key="69">
+  <kbd>E</kbd>
+  <span>is for Elephant</span>
+  </div>  
+  
+  <div class="f-key" data-key="70">
+  <kbd>F</kbd>
+  <span>is for Frog</span>
+  </div>
+  
+  <div class="g-key" data-key="71">
+  <kbd>G</kbd>
+  <span>is for Goat</span>
+  </div>  
+  
+  <div class="h-key" data-key="72">
+  <kbd>H</kbd>
+  <span>is for Honeybee</span>
+  </div>  
+  
+  <div class="i-key" data-key="73">
+  <kbd>I</kbd>
+  <span>is for Iguana</span>
+  </div> 
+  
+  <div class="j-key" data-key="74">
+  <kbd>J</kbd>
+  <span>is for Jaguar </span>
+  </div> 
+  
+  <div class="k-key" data-key="75">
+  <kbd>K</kbd>
+  <span>is for Kangaroo</span>
+  </div>  
+  
+  <div class="l-key" data-key="76">
+  <kbd>L</kbd>
+  <span>is for Lion</span>
+  </div>  
+  
+  <div class="m-key" data-key="77">
+  <kbd>M</kbd>
+  <span>is for Monkey</span>
+  </div>  
+  
+  <div class="n-key" data-key="78">
+  <kbd>N</kbd>
+  <span>is for Narwhal</span>
+  </div>  
+  
+  <div class="o-key" data-key="79">
+  <kbd>O</kbd>
+  <span>is for Owl</span>
+  </div> 
+  
+  
+  <div class="p-key" data-key="80">
+  <kbd>P</kbd>
+  <span>is for Pig</span>
+  </div> 
+  
+  <div class="q-key" data-key="81">
+  <kbd>Q</kbd>
+  <span>is for Quail</span>
+  </div> 
+  
+  <div class="r-key" data-key="82">
+  <kbd>R</kbd>
+  <span>is for Raccoon</span>
+  </div> 
+  
+  <div class="s-key" data-key="83">
+  <kbd>S</kbd>
+  <span>is for Sheep</span>
+  </div> 
+  
+  <div class="t-key" data-key="84">
+  <kbd>T</kbd>
+  <span>is for Turkey</span>
+  </div> 
+  
+  <div class="u-key" data-key="85">
+  <kbd>U</kbd>
+  <span>is for Unicorn</span>
+  </div> 
+  
+  <div class="v-key" data-key="86">
+  <kbd>V</kbd>
+  <span>is for Vulture</span>
+  </div> 
+  
+  <div class="w-key" data-key="87">
+  <kbd>W</kbd>
+  <span>is for Wolf</span>
+  </div> 
+  
+  <div class="x-key" data-key="88">
+  <kbd>X</kbd>
+  <span>is for X-Ray Fish</span>
+  </div> 
+  
+  <div class="y-key" data-key="89">
+  <kbd>Y</kbd>
+  <span>is for Yak</span>
+  </div> 
+  
+  <div class="z-key" data-key="90">
+  <kbd>Z</kbd>
+  <span>is for Zebra</span>
+  </div> 
+  
+</main>
+  
+<!-- Sound Files -->
+<audio data-key="65" src="sounds/alligator.wav"></audio>
+<audio data-key="66" src="sounds/bear.mp3"></audio>
+<audio data-key="67" src="sounds/cow.wav"></audio>
+<audio data-key="68" src="sounds/dog.wav"></audio>
+<audio data-key="69" src="sounds/elephant.wav"></audio>
+<audio data-key="70" src="sounds/frog.mp3"></audio>
+<audio data-key="71" src="sounds/goat.wav"></audio>
+<audio data-key="72" src="sounds/honeybee.mp3"></audio>
+<audio data-key="73" src="sounds/iguana.mp3"></audio>
+<audio data-key="74" src="sounds/jaguar.mp3"></audio>
+<audio data-key="75" src="sounds/kangaroo.mp3"></audio>
+<audio data-key="76" src="sounds/lion.wav"></audio>
+<audio data-key="77" src="sounds/monkey.mp3"></audio>
+<audio data-key="78" src="sounds/narwhal.mp3"></audio>
+<audio data-key="79" src="sounds/owl.wav"></audio>
+<audio data-key="80" src="sounds/pig.wav"></audio>
+<audio data-key="81" src="sounds/quail.wav"></audio>
+<audio data-key="82" src="sounds/raccoon.mp3"></audio>
+<audio data-key="83" src="sounds/sheep.wav"></audio>
+<audio data-key="84" src="sounds/turkey.mp3"></audio>
+<audio data-key="85" src="sounds/unicorn.wav"></audio>
+<audio data-key="86" src="sounds/vulture.mp3"></audio>
+<audio data-key="87" src="sounds/wolf.mp3"></audio>
+<audio data-key="88" src="sounds/xrayFish.mp3"></audio>
+<audio data-key="89" src="sounds/yak.mp3"></audio>
+<audio data-key="90" src="sounds/zebra.mp3"></audio>
+
+</body>
+</div>
+</html>
